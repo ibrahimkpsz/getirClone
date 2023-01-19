@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    
+    .col1 img{
+        height: 14px;
+    }
+    
+    .col2 {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+
+    #main {
+        background: none;
+        animation: none;
+        height: auto;
+    }
+    #main-img {
+        display: none;
+    }
+
+    #main-text {
+        display: none;
+    }
+
+    #mainBtn {
+        background-color: #ffd300;
+        color: #5d3ebc;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        padding: 15px;
+    }
+
+    #mainBtn:hover {
+        background-color: #5d3ebc;
+        color: #ffd300;
+
+    }
+
+    .signBox {
+        background-color: #fafafa;
+        text-align: center;
+        height: 200px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .signBox select{
+        border: 2px solid #e2e2e2;
+    }
+
+    #main-input {
+        border: 2px solid #e2e2e2;
+
+    }
+
+    .signText {
+        color: #5d3ebc;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 5px;
+    }
+
+    #categories {
+        padding: 30px 20px;
+        
+    }
+
+    #categories h6 {
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #categories .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 5px;
+        border-radius: 8px;
+    }
+
+    #categories .col:hover {
+        background-color: #7849f71e;
+        color: #5d3ebc;
+    }
+
+    #categories .col span{
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    #kampanyaBox .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex: 1 1 50%;
+        margin: 16px;
+        justify-content: flex-start;
+        
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    #downloadBox {
+        padding: 50px;
+    }
+
+    #downloadBox .col:nth-child(2) {
+        display: none;
+    }
+
+}
+
+    @media screen and (max-width: 1024px) {
+    .col2-text {
+        display: none;
+    }
+}
